@@ -34,12 +34,9 @@ The aim of the project is to build a working translator that converts English te
 
 ## Requirements
 
-Install all dependencies with:
-
 ```bash
 pip install
 transformers
- datasets
+datasets
 sacrebleu
 sentencepiece
-
