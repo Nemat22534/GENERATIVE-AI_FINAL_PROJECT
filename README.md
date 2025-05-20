@@ -4,13 +4,13 @@ This project is part of the **Generative AI course final project by **Nemat Dada
 
 ---
 
-## Project Objective
+## Project Objective:
 
 The aim of the project is to build a working translator that converts English text into Russian using a pre-trained transformer-based model and apply **fine-tuning** to adapt it to a specific domain (literary texts).
 
 ---
 
-## Model Information
+## Model Information:
 
 - **Base Model**: [Helsinki-NLP/opus-mt-en-ru](https://huggingface.co/Helsinki-NLP/opus-mt-en-ru)
 - **Fine-tuning Dataset**: `opus_books` (subset: 1000 training, 200 validation samples)
@@ -20,7 +20,7 @@ The aim of the project is to build a working translator that converts English te
 
 ---
 
-## How It Works
+## How It Works:
 
 1. Load the MarianMT model and tokenizer.
 2. Load and preprocess the `opus_books` English–Russian translation dataset.
@@ -32,7 +32,7 @@ The aim of the project is to build a working translator that converts English te
 
 ---
 
-## Requirements
+## Requirements:
 
 ```bash
 pip install
